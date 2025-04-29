@@ -19,7 +19,8 @@ body {
 
 h1,h2,h3,h4,h5,h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-    font-weight: 600px;
+    font-weight: 600;
+    color:black;
 }
 
 a{
@@ -79,4 +80,38 @@ img{
     background: linear-gradient(rgba(0,0,0,0.507), rgba(0, 0, 0, 0.411)), url(../img/ufpr_hero.jpg);
     background-position: center ;
     background-size: cover;
+}
+
+/* ABOUT */
+
+#about {
+  padding-top: 40px;
+  padding-bottom: 60px !important; /* Reduz apenas o espaço abaixo */
+}
+
+#about img {
+  width: 100%; /* Ocupa toda a largura do container */
+  max-width: 500px; /* Limite máximo (ajuste conforme necessário) */
+  height: auto; /* Mantém a proporção */
+  display: block; /* Remove espaços indesejados */
+  border-radius: 8px; /* Opcional: bordas arredondadas */
+  padding-top: 30px;
+}
+
+/* SECTION TITLE */
+
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+/* COUNTER */
+
+
+/* SPACE */
+
+.space{
+    margin-top: 50px;
 }
